@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(201, 182, 59, 0.514);
+    color: #141009;
+}
+
+textarea {
+    resize: none;
+}
+
+p {
+    font-weight: 500;
+    color: #6c3c57fa;
+}
+
+label {
+    font-weight: 700;
+}
+
+.btn-info {
+    color: #000;
+    background-color: #e9b1b194;
+    border-color: #d7abab;
+}
+
+.btn-info:hover {
+    background-color: #be73a894;
+    border-color: #d7abab;
+}
+
+.btn-info:active:focus {
+    background-color: #be73a894;
+    border-color: #b28dbd;
+}
+
+.btn-info:focus {
+    color: #000;
+    background-color: #be73a894;
+    border-color: #b28dbd;
+    box-shadow: 0 0 0 0.25rem rgba(140, 78, 153, 0.5);
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #5a161d;
+    border-color: #2c0b0c;
+}

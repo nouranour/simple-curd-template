@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>curd operation</title>
+</head>
+
+<body>
+    <section>
+        <div class="container text-center ">
+            <h1 class="text-center text-uppercase py-3 fw-bold">curd template</h1>
+            <div>
+                <p class="text-capitalize"> you can add the products and save here now</p>
+            </div>
+        </div>
+    </section>
+    <div class="container my-5 ">
+        <div class="w-75 mx-auto  ">
+            <div class="inputs my-3  ">
+                <label for="productName">product Name</label>
+                <input class="form-control" id="productName" type="text">
+                <div id="nameAlert" class="my-2 alert alert-danger d-none">Name Must Start With Capital Letter </div>
+            </div>
+
+            <div class="inputs my-3 ">
+                <label for="productPrice">product Price</label>
+                <input class="form-control" id="productPrice" type="text">
+            </div>
+
+            <div class="inputs my-3 ">
+                <label for="productCategory">product Category</label>
+                <input class="form-control" id="productCategory" type="text">
+            </div>
+
+            <div class="inputs my-3 ">
+                <label for="productDesc">product Description</label>
+                <textarea id="productDesc" class="form-control"></textarea>
+            </div>
+            <button id="submitBtn" class="btn btn-warning">add Product</button>
+
+        </div>
+
+        <div class="w-75 mx-auto my-5">
+            <label for="">search here</label>
+            <input id="search" placeholder="search by price name" type="text" class="form-control">
+        </div>
+        <div class="data">
+            <Table class="table table-striped">
+                <thead>
+                    <th>index</th>
+                    <th>name</th>
+                    <th>price</th>
+                    <th>category</th>
+                    <th>description</th>
+                    <th>delete</th>
+                    <th>update</th>
+
+                </thead>
+                <tbody id="tableBody">
+
+                </tbody>
+            </Table>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
